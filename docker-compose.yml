@@ -8,8 +8,8 @@ services:
     restart: always
 
   web:
-    image: nginx:alpine
+    image: httpd:alpine
     volumes:
-      - $PWD/html:/usr/share/nginx/html
+      - $PWD/html:/usr/local/apache2/htdocs
     restart: always
 
