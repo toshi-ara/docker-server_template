@@ -7,6 +7,9 @@ template of private web server with reverse proxy using docker
 
 ``` bash
 git clone https://github.com/toshi-ara/docker-server_template.git
+
+docker pull nginx:alpine
+docker pull httpd:alpine
 ```
 
 
