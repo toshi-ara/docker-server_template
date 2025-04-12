@@ -7,7 +7,7 @@ services:
       - 80:80
     restart: always
 
-  web:
+  web-container:
     image: httpd:alpine
     volumes:
       - $PWD/html:/usr/local/apache2/htdocs
